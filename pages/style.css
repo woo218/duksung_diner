@@ -1,0 +1,114 @@
+/* 기본 스타일 */
+html, body {
+    height: 100%;   /* 높이를 100%로 설정하여 페이지가 전체 화면을 채우게 함 */
+    margin: 0;      /* 기본 margin 없애기 */
+    padding: 0;     /* 기본 padding 없애기 */
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    display: flex;            /* 중앙 정렬을 위한 flexbox 사용 */
+    justify-content: center;  /* 가로 중앙 정렬 */
+    align-items: flex-start;  /* 세로 방향 정렬 (상단부터 시작) */
+    flex-direction: column;
+  }
+  
+  /* .container 스타일 */
+  .container {
+    width: 80%;             /* 가로 너비 80%로 설정 */
+    max-width: 1000px;      /* 최대 너비를 1000px로 제한 */
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;       /* 상단에 여백 추가 */
+  }
+  
+  /* 중앙 정렬을 위한 헤더 스타일 */
+  header {
+    text-align: center; /* 제목을 중앙 정렬 */
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  hr {
+    margin: 20px 0;
+  }
+  
+  /* 테이블 스타일 */
+  table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  /* 이미지 스타일 */
+  img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* 링크 스타일 */
+  a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* 구글 지도 iframe 중앙 정렬 */
+  iframe {
+    width: 600px;
+    height: 450px;
+    border: 0;
+    margin: 20px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  table tbody tr:hover {
+    background-color: #fff8dc; /*연한 노랑색으러 색상 바뀜*/
+    cursor: pointer; 
+  }
+  
+  
